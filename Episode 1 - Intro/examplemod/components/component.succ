@@ -1,0 +1,84 @@
+NAND:
+    column: MyMod
+    category: Chips
+    prefab:
+        blocks:
+            -
+                color:
+                    r: 255
+                    g: 107
+                    b: 0
+                scale:
+                    x: 1
+                    y: 1
+                    z: 1
+                position:
+                    x: 0
+                    y: 0
+                    z: 0
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
+        inputs:
+            -
+                length: 0.6
+                position:
+                    x: -0.5
+                    y: 0.5
+                    z: 0.25
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
+            -
+                length: 0.6
+                position:
+                    x: -0.5
+                    y: 0.5
+                    z: -0.25
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
+        outputs:
+            -
+                startOn: false
+                position:
+                    x: 0.5
+                    y: 0.5
+                    z: 0
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 270
+    logicCode: mymod.NANDGATE
+    placingRules:
+        offsetDimensions:
+            x: 2
+            y: 1
+        defaultOffset:
+            x: 0
+            y: 0
+        offsetScale:
+            x: 1
+            y: 1
+        cornerMidpoint:
+            x: 0
+            y: 0
+        gridPlacingDimensions:
+            x: 1
+            y: 1
+        allowWorldRotation: true
+        allowFineRotation: true
+        canBeFlipped: false
+        flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
+        primaryGridPositions:
+            -
+                x: 0.5
+                y: 0.5
+        secondaryGridPositions:
+        primaryEdgePositions:
+        secondaryEdgePositions:

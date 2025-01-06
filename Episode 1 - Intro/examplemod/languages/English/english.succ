@@ -1,0 +1,4 @@
+ComponentColumn.MyMod : "My First Mod"
+ComponentCategory.Chips : "Logic Gates"
+
+mymod.NAND : "NAND"
